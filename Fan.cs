@@ -11,10 +11,12 @@ public class Fan
     public void FanOn()
     {
         on = true;
+        Console.WriteLine("Quat da duoc bat !");
     }
     public void FanOff()
     {
         on = false;
+        Console.WriteLine("Quat dang o trang thai tat !");
     }
     public void Speed()
     {
